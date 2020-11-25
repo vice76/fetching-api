@@ -1,5 +1,5 @@
 import React from 'react';
-import './tips.css';
+import '../../assets/styles/tips.css';
 
 function Tips(){
     return (

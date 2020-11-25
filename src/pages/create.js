@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react';
-import Header from '../components/header';
-import Formtake from '../components/formtake';
+import Header from '../components/header/header';
+import Formtake from '../components/form/formtake';
 
 function Create() {
     return(

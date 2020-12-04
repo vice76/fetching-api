@@ -1,22 +1,5 @@
-.header {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    background-color: aqua;
-}
-.header ul{
-    list-style: none;
-    text-align: center;
-}
-.header li{
-    display: inline-block;
-    margin: 15px;
-} 
-.header a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
+@media only screen and (min-width: 500px)
+{
 .header button{
     height: 30px;
     background-color: #005086;
@@ -27,4 +10,5 @@
 }
 .header button:focus{
     outline: none;
+}
 }

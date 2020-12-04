@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import { getData } from '../../services/api.service';
 import List from '../list/list';
+import '../../assets/styles/formtake.css';
 
 function Formtake() {
     const [inputValue, setInputValue] = useState("");
@@ -29,7 +30,7 @@ function Formtake() {
                     placeholder="Serach github repos"
                     onChange={handleChange}
                 />
-                <button onClick={handleSubmit}>Search</button>
+                <button onClick={handleSubmit} className="design_button">Search</button>
                 <List data={repos}/>
         </div>
     )

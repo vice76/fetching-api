@@ -1,18 +1,41 @@
 .design_search{
     display: block;
-    width: 100%;
+    margin-top: 50px;
+    margin-left: 42%;
     font-size: 20px;
     padding: 1rem 0.5rem;
     border-bottom: 1px solid #ccc;
     outline: none;
 }
 
+.design_button {
+    margin-top: 4px;
+    margin-left: 47%;
+    color: white;
+    background-color: black;
+    outline: black;
+}
 .design_search:focus {
     border-bottom: 1px solid #111;
 }
 
-.repo-list{
-    list-style: none;
-    margin: 0;
-    padding: 1rem ;
+@media (max-width:768px)
+{
+    .design_search{
+        display: block;
+        margin-top: 50px;
+        margin-left: 23%;
+        font-size: 20px;
+        padding: 1rem 0.5rem;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+    }
+    
+    .design_button {
+        margin-top: 4px;
+        margin-left: 43%;
+        color: white;
+        background-color: black;
+        outline: black;
+    }
 }

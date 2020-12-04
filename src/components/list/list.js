@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../assets/styles/list.css';
 
 const List = (props) =>{
     const newdata=props.data;
-
+    
     return (
-        <div>
+        <div className="style-list">
             <h2>total repositories:{newdata.length}</h2>
             <p>
                 {

@@ -27,7 +27,7 @@ function Formtake() {
                 <input 
                     type="text"
                     className="design_search"
-                    placeholder="Serach github repos"
+                    placeholder="Search github repos"
                     onChange={handleChange}
                 />
                 <button onClick={handleSubmit} className="design_button">Search</button>

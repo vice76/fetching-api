@@ -23,8 +23,9 @@
 {
     .design_search{
         display: block;
+        margin-right: auto;
+        margin-left: auto;
         margin-top: 50px;
-        margin-left: 23%;
         font-size: 20px;
         padding: 1rem 0.5rem;
         border-bottom: 1px solid #ccc;

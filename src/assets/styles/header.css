@@ -1,4 +1,12 @@
-@media only screen and (min-width: 500px)
+.header button{
+    height: 30px;
+    background-color: #005086;
+    color: white;
+    border-style: none;
+    border-radius: 6px;
+    
+}
+@media (max-width: 786px)
 {
 .header button{
     height: 30px;

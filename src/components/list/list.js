@@ -11,7 +11,7 @@ const List = (props) =>{
                 {
                     newdata.map((rep) => 
                     <li key={rep.id}>
-                    <a href={rep.html_url} target="_blank">{rep.name}</a>
+                    <a href={rep.html_url} target="_blank" rel="noopener noreferrer">{rep.name}</a>
                     </li>)
                     
                 }
